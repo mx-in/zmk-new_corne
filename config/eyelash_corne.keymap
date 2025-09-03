@@ -80,7 +80,13 @@
         m1v: m1v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp V>, <&macro_press>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_WIN>,
+                <&macro_tap>,
+                <&kp V>,
+                <&macro_release>,
+                <&kp LEFT_COMMAND>;
 
             label = "M1V";
         };
@@ -88,14 +94,28 @@
         m2arcss: m2arcss {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_WIN &kp LEFT_SHIFT &kp NUMBER_2>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_WIN &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp NUMBER_2>,
+                <&macro_release>,
+                <&kp RIGHT_WIN &kp LEFT_SHIFT>;
+
             label = "M2ARCSS";
         };
 
         m3ss: m3ss {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_COMMAND &kp RIGHT_SHIFT &kp NUMBER_3>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_COMMAND &kp RIGHT_SHIFT>,
+                <&macro_tap>,
+                <&kp NUMBER_3>,
+                <&macro_release>,
+                <&kp RIGHT_COMMAND &kp RIGHT_SHIFT>;
+
             label = "M3SS";
         };
     };
