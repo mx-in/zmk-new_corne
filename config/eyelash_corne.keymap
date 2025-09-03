@@ -61,6 +61,36 @@
         };
     };
 
+    macros {
+        m0cc: m0cc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp C>;
+            label = "M0CC";
+        };
+
+        m1v: m1v {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp V>;
+            label = "M1V";
+        };
+
+        m2arcss: m2arcss {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_WIN &kp LEFT_SHIFT &kp NUMBER_2>;
+            label = "M2ARCSS";
+        };
+
+        m3ss: m3ss {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_COMMAND &kp RIGHT_SHIFT &kp NUMBER_3>;
+            label = "M3SS";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
