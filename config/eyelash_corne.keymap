@@ -110,11 +110,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp RIGHT_COMMAND &kp RIGHT_SHIFT>,
+                <&kp LEFT_SHIFT &kp RIGHT_COMMAND>,
                 <&macro_tap>,
-                <&kp NUMBER_3>,
+                <&kp KP_NUMBER_3>,
                 <&macro_release>,
-                <&kp RIGHT_COMMAND &kp RIGHT_SHIFT>;
+                <&kp LEFT_SHIFT &kp RIGHT_COMMAND>;
 
             label = "M3SS";
         };
