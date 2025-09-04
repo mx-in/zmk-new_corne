@@ -176,7 +176,7 @@ layers:
   - OUT BLE
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - RGB ON
@@ -197,5 +197,5 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 15, 29]
+- p: [1, 29, 15, 15]
   k: '&soft_off'
