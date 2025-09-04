@@ -150,10 +150,10 @@
         layer_2 {
             display-name = "Fn";
             bindings = <
-&kp GRAVE    &trans    &kp UP_ARROW    &trans     &msc SCRL_DOWN  &msc SCRL_UP                                &mmv MOVE_UP                     &trans       &trans         &trans       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE
-&bootloader  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN   &kp PAGE_UP                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp BACKSPACE  &kp ENTER    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
-&sys_reset   &m3ss     &m2arcss        &m0cc      &m1v            &mkp MB4      &kp C_MUTE                    &mmv MOVE_DOWN                   &mkp MB5     &trans         &bootloader  &sys_reset            &trans                 &kp PIPE
-                                       &trans     &trans          &trans                                                                       &trans       &trans         &trans
+&kp GRAVE    &trans    &kp UP_ARROW    &trans     &msc SCRL_UP   &msc SCRL_DOWN                                &mmv MOVE_UP                     &trans       &trans         &trans       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE
+&bootloader  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN  &kp PAGE_UP                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp BACKSPACE  &kp ENTER    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
+&sys_reset   &m3ss     &m2arcss        &m0cc      &m1v           &mkp MB4        &kp C_MUTE                    &mmv MOVE_DOWN                   &mkp MB5     &trans         &bootloader  &sys_reset            &trans                 &kp PIPE
+                                       &trans     &trans         &trans                                                                         &trans       &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
