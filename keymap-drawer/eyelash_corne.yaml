@@ -170,12 +170,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - HOME
+  - END
+  - PgUp
+  - PgDn
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
-  - OUT USB
-  - OUT BLE
-  - HOME
-  - PG UP
   - '&soft_off'
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
@@ -188,8 +188,8 @@ layers:
   - RGB SPI
   - RGB BRI
   - RGB BRD
-  - END
-  - PG DN
+  - OUT USB
+  - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
