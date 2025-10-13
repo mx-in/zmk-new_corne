@@ -132,10 +132,10 @@ layers:
   - '&m2arcss'
   - '&m0cc'
   - '&m1v'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB4'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
