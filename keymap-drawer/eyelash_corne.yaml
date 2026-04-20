@@ -50,7 +50,7 @@ layers:
   - RIGHT WIN
   - SYMBOL
   SYMBOL:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - '!'
   - '@'
   - '#'
@@ -100,7 +100,7 @@ layers:
   - {type: held}
   Fn:
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-up$$
