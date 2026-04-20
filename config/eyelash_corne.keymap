@@ -138,10 +138,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                               &mmv MOVE_UP                     &kp CARET     &kp AMPS      &kp ASTRK     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp EQUAL
-&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &trans                    &mmv MOVE_DOWN                   &kp F6        &kp F7        &kp F8        &kp F9            &kp F10            &kp BACKSLASH
-                                    &trans        &trans        &kp SPACE                                                                &kp RET       &trans        &trans
+&kp TILDE  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                               &mmv MOVE_UP                     &kp CARET     &kp AMPS      &kp ASTRK     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
+&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp EQUAL
+&trans     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &trans                    &mmv MOVE_DOWN                   &kp F6        &kp F7        &kp F8        &kp F9            &kp F10            &kp BACKSLASH
+                                       &trans        &trans        &kp SPACE                                                                &kp RET       &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -150,10 +150,10 @@
         layer_2 {
             display-name = "Fn";
             bindings = <
-&kp GRAVE    &trans    &kp UP_ARROW    &trans     &msc SCRL_UP   &msc SCRL_DOWN                                &mmv MOVE_UP                     &trans       &trans         &trans       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE
-&bootloader  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN  &kp PAGE_UP                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp BACKSPACE  &kp ENTER    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
-&sys_reset   &m3ss     &m2arcss        &m0cc      &m1v           &mkp MB4        &kp C_MUTE                    &mmv MOVE_DOWN                   &mkp MB5     &trans         &bootloader  &sys_reset            &trans                 &kp PIPE
-                                       &trans     &trans         &trans                                                                         &trans       &trans         &trans
+&kp GRAVE    &kp TILDE  &kp UP_ARROW    &trans     &msc SCRL_UP   &msc SCRL_DOWN                                &mmv MOVE_UP                     &trans       &trans         &trans       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE
+&bootloader  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN  &kp PAGE_UP                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp BACKSPACE  &kp ENTER    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
+&sys_reset   &m3ss      &m2arcss        &m0cc      &m1v           &mkp MB4        &kp C_MUTE                    &mmv MOVE_DOWN                   &mkp MB5     &trans         &bootloader  &sys_reset            &trans                 &kp PIPE
+                                        &trans     &trans         &trans                                                                         &trans       &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
